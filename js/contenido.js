@@ -35,6 +35,11 @@ function agregarTitulo(texto) {
         titulo.textContent = texto;
         document.body.appendChild(titulo);
     }
+function nuevoParrafo() {
+    var contenido = document.getElementById('contenido');
+    var texto = document.getElementById("texto").value;
+    contenido.innerHTML = contenido.innerHTML + '<h>' + texto + '</h>';
+}
 
 function agregarEnlace(url, texto) {
         let enlace = document.createElement("a");

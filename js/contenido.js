@@ -34,7 +34,7 @@ function imprimir(){
 function nuevoTitulo() {
     var contenido = document.getElementById('contenido');
     var texto = document.getElementById("texto").value;
-    contenido.innerHTML = contenido.innerHTML + '<h>' + texto + '</h>';
+    contenido.innerHTML = contenido.innerHTML + '<h1>' + texto + '</h1>';
 }
 
 function agregarEnlace(url, texto) {

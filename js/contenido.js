@@ -37,6 +37,7 @@ function nuevoTitulo() {
     contenido.innerHTML = contenido.innerHTML + '<h1>' + texto + '</h1>';
 }
 
+
 function agregarEnlace(url, texto) {
         let enlace = document.createElement("a");
         enlace.href = url;

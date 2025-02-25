@@ -30,11 +30,12 @@ function imprimir(){
     a.document.close();
     a.print();
     }
-    function agregarTitulo(texto) {
+function agregarTitulo(texto) {
         let titulo = document.createElement("h1");
         titulo.textContent = texto;
         document.body.appendChild(titulo);
     }
+
 function agregarEnlace(url, texto) {
         let enlace = document.createElement("a");
         enlace.href = url;

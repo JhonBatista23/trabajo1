@@ -30,12 +30,8 @@ function imprimir(){
     a.document.close();
     a.print();
     }
-function agregarTitulo(texto) {
-        let titulo = document.createElement("h1");
-        titulo.textContent = texto;
-        document.body.appendChild(titulo);
-    }
-function nuevoParrafo() {
+
+function nuevoTitulo() {
     var contenido = document.getElementById('contenido');
     var texto = document.getElementById("texto").value;
     contenido.innerHTML = contenido.innerHTML + '<h>' + texto + '</h>';
